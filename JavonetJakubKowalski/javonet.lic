@@ -1,0 +1,28 @@
+<auth xmlns="">
+  <licenceKey>o8AK-Rz4n-Me67-z3G9-Wn46</licenceKey>
+  <isServerEditionOs>False</isServerEditionOs>
+  <hostname><![CDATA[DESKTOP-FK04GBQ]]></hostname>
+  <productVersion>1.4.34.15814</productVersion>
+  <userName>Jakub Kowalski</userName>
+  <appName>javOnetTrial|javOnet</appName>
+  <appVersion>3.0</appVersion>
+  <email>kubabartek1@op.pl</email>
+  <verify>THdaP9ulwGMgV6FDInN2cs82zkwXrlqpZGV8h1IX5gEWkskmxrHCsG0zPovHIAHwBSm2se5aSKpuaDgLQAdRnYfweGi5u/gdz03hhyY69vk/o29u6jZ3noX9zqyxfhIcYZX6gCwJ76mgjEsmwppP3wA8hh8//LlPCCtV8ALwxCo=</verify>
+  <callsAllowed />
+  <classesAllowed />
+  <approvedIds>ZQ2fetI2PzgomTfBSYr1yZZlT4A6F1ww5u85b3Xk3yg54uUpi/DFIGI4+E883ccbOaXt92W9Pv0H8R5JVTsZtihPxG6D8as21TB+pJG6qJUix3SG5d/7faIaqXifWll808PK4jVOgbaM9nVL6FFZlk/UtjkhkoDgYLrMaUn7I8I=</approvedIds>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>aOOQNujpXX+2ZJBKmO58v6XzA40=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>uDcxEgAE/hChgUIqa1jaOu8DdhEt5Hdb7/q7uCSqzLRAWq2bqHGv/KlQ8MZc64Kk5/HpeOW2YZm2QDudaylZLMkXQ/8RERW1vLqE8CpclPZE8A7TBQFoZoSOU068yypJ9lS6lXcyA1U7zGIFNEs4TU0kaDRgoKNGhGDkaRSmr18=</SignatureValue>
+  </Signature>
+</auth>
