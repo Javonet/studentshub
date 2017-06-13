@@ -38,13 +38,15 @@ public class Main extends Application {
         buttonToChooseDirectory.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                directoryChooser.setInitialDirectory(defaultDirectory);
+                directoryChooser.setInitialDirectory(new File(System.getProperty("user.home")));
                 File selectedDirectory = directoryChooser.showDialog(stage);
 
                 String a = selectedDirectory.getAbsolutePath();
                 message.setText(selectedDirectory.getAbsolutePath());
                 message.setTranslateY(110);
                 message.setTranslateX(55);
+                
+                String c = selectedDirectory.getParent();
 
                 Zipper zip = new Zipper();
                 field.setOnKeyPressed(new EventHandler<KeyEvent>() {
@@ -52,7 +54,7 @@ public class Main extends Application {
 
                         if(e.getCode()== KeyCode.ENTER) {
                             try {
-                                zip.zipIt(a,field.getText());
+                                zip.zipIt(a,field.getText(),c);
                                 everythingWork.setText("Everything work");
                                 everythingWork.setTranslateX(160);
                                 everythingWork.setTranslateY(180);

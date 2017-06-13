@@ -12,7 +12,7 @@ public class Zipper {
 
     //String extractPath = "C:\\Users\\Jakub Kowalski\\IdeaProjects\\JavonetApp\\extract1234";
 
-    public void zipIt(String a, String b) throws JavonetException {
+    public void zipIt(String a, String b, String c) throws JavonetException {
         try {
             com.javonet.Javonet.activate("kubabartek1@op.pl", "o8AK-Rz4n-Me67-z3G9-Wn46", JavonetFramework.v40);
             com.javonet.Javonet.addReference("System.Windows.Forms");
@@ -22,7 +22,7 @@ public class Zipper {
             //com.javonet.Javonet.getType("MessageBox").invoke("Show", "Hello from .NET!");
 
             String start = a;
-            String zipPath = "C:\\Users\\Jakub Kowalski\\IdeaProjects\\JavonetApp\\" + b + ".zip";
+            String zipPath = c + "\\" + b + ".zip";
 
             NType zip = com.javonet.Javonet.getType("ZipFile");
             zip.invoke("CreateFromDirectory", start, zipPath);
